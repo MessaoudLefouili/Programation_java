@@ -17,7 +17,8 @@ public class User {
 	public String getName() {
 		return name;
 	}
-
+	
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -38,5 +39,11 @@ public class User {
 		this.salary = salary;
 	}
 
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", age=" + age + ", salary=" + salary + "]";
+	}
+
+	
 	
 }

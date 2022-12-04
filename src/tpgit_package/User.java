@@ -1,6 +1,7 @@
 package tpgit_package;
 
 public class User {
+	private String name ;
 
 	public User() {
 		// TODO Auto-generated constructor stub
